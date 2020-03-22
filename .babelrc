@@ -1,0 +1,28 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "./config",
+            "rootPathPrefix": "~conf/"
+          },
+          {
+            "rootPathSuffix": "./graphql",
+            "rootPathPrefix": "~graph/"
+          },
+          {
+            "rootPathSuffix": "./helpers",
+            "rootPathPrefix": "~help/"
+          },
+          {
+            "rootPathSuffix": "./models",
+            "rootPathPrefix": "~mod/"
+          }
+        ]
+      }
+    ],
+  ]
+}
