@@ -21,6 +21,7 @@ export default buildSchema(`
   
   type RootQuery {
     users: [String!]!
+    login(email: String!, password: String!) : String!
   }
   
   type RootMutation {
