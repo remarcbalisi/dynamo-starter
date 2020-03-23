@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ad8149c1-8e85-4793-aaea-9eff8095c977" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/resolvers/user/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/user/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graphql/schema/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/schema/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <workItem from="1584626049700" duration="4520000" />
       <workItem from="1584703528499" duration="11649000" />
       <workItem from="1584758753787" duration="4000" />
-      <workItem from="1584879788912" duration="3772000" />
+      <workItem from="1584879788912" duration="15654000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,12 @@ export default buildSchema(`
     info: UserInfo!
   }
   
+  type AuthData {
+    userId: String!
+    token: String!
+    tokenExpiration: Int!
+  }
+  
   input UserInfoInput {
     email: String!
     password: String!
@@ -21,7 +27,7 @@ export default buildSchema(`
   
   type RootQuery {
     users: [String!]!
-    login(email: String!, password: String!) : String!
+    login(email: String!, password: String!) : AuthData!
   }
   
   type RootMutation {
